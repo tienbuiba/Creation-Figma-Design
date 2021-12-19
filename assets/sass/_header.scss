@@ -1,0 +1,59 @@
+.header {
+  padding-top: 50px;
+  margin-bottom: 90px;
+  &__container {
+display:flex;
+justify-content: space-between;
+align-items: center;
+  }
+  &__logo {
+
+  }
+
+  &__auth {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+
+  }
+
+}
+
+
+
+.signin {
+  font-weight: 500;
+
+}
+.signup {
+display: block;
+padding: 13px 45px;
+color: #a8898e;
+border-radius: 50px;
+border: 1px solid #F53855;
+text-align: center;
+font-weight: 500;
+color: #F53855;
+
+  
+}
+
+.menu__list {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  // gap: 0 40px;
+  .menu__item + .menu__item {
+    margin-left: 40px;
+  }
+
+}
+.menu__item {
+  list-style: none;
+
+}
+.menu__link {
+  color: inherit;
+
+}

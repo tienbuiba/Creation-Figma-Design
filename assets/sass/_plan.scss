@@ -1,0 +1,82 @@
+.plan {
+  margin-bottom: 150px;
+  &__container {
+    padding: 0 40px;
+  }
+  &__top {
+  }
+  &__heading {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__desc {
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__content {
+  }
+  &__lists {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 50px;
+  }
+  &__items {
+    display: inline-block;
+    padding: 70px 60px 50px 60px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+  
+    &:hover {
+      .plan__btn {
+        background-color: $primary-color;
+        color: white;
+      }
+      border: none;
+    }
+  }
+  &__image {
+    margin-bottom: 30px;
+    padding: 0 20px 0 20px;
+  }
+  &__kind {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  &__list {
+    list-style: none;
+
+    margin-bottom: 100px;
+  }
+  &__item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  &__icon {
+  }
+  &__name {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  &__btn {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__pricing {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
