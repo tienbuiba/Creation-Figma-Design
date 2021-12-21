@@ -1,0 +1,140 @@
+.footer {
+  padding: 330px 0 150px;
+  position: relative;
+  display: block;
+  &__container {
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    list-style: none;
+    grid-gap: 0 80px;
+  }
+  &__item {
+  }
+  &__logo {
+    margin-bottom: 26px;
+  }
+  &__desc {
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  &__social {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    gap: 0 20px;
+  }
+  &__facebook {
+    display: block;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &__instagram {
+    display: block;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &__twitter {
+    display: block;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  &__icon {
+    text-align: start;
+  }
+  &__copyright {
+    font-weight: 500;
+    line-height: 30px;
+    color: #afb5c0;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: $heading-color;
+  }
+  &__link {
+    line-height: 30px;
+    color: $text-color;
+    margin-bottom: 10px;
+    display: block;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .footer {
+    padding: 430px 0 100px;
+  }
+
+  .footer__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    grid-gap: 50px 50px;
+  }
+  .footer__item {
+    display: inline;
+    width: 90%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .footer__social {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    gap: 0 10px;
+  }
+  .footer__desc {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer__logo {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .footer {
+    padding: 430px 0 100px;
+  }
+
+  .footer__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    grid-gap: 50px 30px;
+  }
+  .footer__item {
+    display: inline;
+    width: 90%;
+    padding: 0 0px;
+    text-align: center;
+  }
+  .footer__social {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    gap: 0 10px;
+  }
+  .footer__desc {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .footer__logo {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 26px;
+  }
+}

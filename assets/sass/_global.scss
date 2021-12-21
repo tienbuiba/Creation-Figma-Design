@@ -13,7 +13,7 @@ body {
   line-height: 1;
   color: $text-color;
   font-weight: 400;
-  background-color: rgb(253, 253, 253);
+  background-color: #f6f6f6;
 }
 .btn {
   padding: 13px 45px;
@@ -23,4 +23,12 @@ body {
   text-align: center;
   font-weight: 500;
   color: #f53855;
+}
+section,
+header,
+footer {
+  display: none;
+}
+section[id] {
+  scroll-margin-top: 30px;
 }

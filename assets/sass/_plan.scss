@@ -1,5 +1,6 @@
 .plan {
   margin-bottom: 150px;
+  display: block;
   &__container {
     padding: 0 40px;
   }
@@ -11,6 +12,7 @@
     font-weight: 500;
     margin-bottom: 20px;
     text-align: center;
+    color: $heading-color;
   }
   &__desc {
     line-height: 30px;
@@ -32,7 +34,8 @@
     border: 1px solid rgba(221, 221, 221, 1);
     border-radius: 10px;
     transition: all 0.2s ease-in;
-  
+    background-color: #fff;
+
     &:hover {
       .plan__btn {
         background-color: $primary-color;
@@ -78,5 +81,102 @@
   &__pricing {
     margin-bottom: 20px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .plan {
+    margin-bottom: 100px;
+  }
+  .plan__container {
+    padding: 0 20px;
+  }
+  .plan__lists {
+    display: grid;
+    justify-content: flex-start;
+    grid-auto-columns: 350px;
+    grid-auto-flow: column;
+    grid-gap: 1.5rem;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-overflow-scrolling: touch;
+    grid-template-columns: unset;
+  }
+  .plan__items {
+    display: inline-block;
+    padding: 50px 40px 30px 40px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    background-color: #fff;
+
+    &:hover {
+      .plan__btn {
+        background-color: $primary-color;
+        color: white;
+      }
+      border: none;
+    }
+  }
+  .plan__heading {
+    font-size: 35px;
+    color: $heading-color;
+  }
+  .plan__image {
+    // margin-bottom: 30px;
+    padding: 0 40px 0 00px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .plan {
+    margin-bottom: 80px;
+  }
+  .plan__container {
+    padding: 0 15px;
+  }
+  .plan__heading {
+    font-size: 30px;
+    color: $heading-color;
+  }
+  .plan__image {
+    // margin-bottom: 30px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+  }
+  .plan__lists {
+    display: grid;
+    justify-content: flex-start;
+    grid-auto-columns: 250px;
+    grid-auto-flow: column;
+    grid-gap: 1.5rem;
+    overflow: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-overflow-scrolling: touch;
+    grid-template-columns: unset;
+  }
+  .plan__items {
+    display: inline-block;
+    padding: 40px 30px 20px 40px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    background-color: #fff;
+
+    &:hover {
+      .plan__btn {
+        background-color: $primary-color;
+        color: white;
+      }
+      border: none;
+    }
   }
 }

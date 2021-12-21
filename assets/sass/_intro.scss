@@ -1,52 +1,49 @@
 .intro {
   margin-bottom: 100px;
+  display: block;
   &__container {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 72px 91px;
     background-color: #fff;
     border-radius: 10px;
-box-shadow: 1px 1px 2px rgb(245, 242, 242);
-
-;  }
-  &__users{
+    box-shadow: 1px 1px 2px rgb(245, 242, 242);
+  }
+  &__users {
     display: flex;
     align-items: center;
     gap: 0 37px;
   }
   &__user-number {
-line-height: 30px;
-font-size: 25px;
-font-weight: 700;
-span {
-  display: block;
-  line-height: 30px;
-  font-size: 25px;
-
-}
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    span {
+      display: block;
+      line-height: 30px;
+      font-size: 25px;
+    }
   }
   &__location-number {
     line-height: 30px;
-font-size: 25px;
-font-weight: 700;
-span {
-  display: block;
-  line-height: 30px;
-  font-size: 25px;
-
-}
+    font-size: 25px;
+    font-weight: 700;
+    span {
+      display: block;
+      line-height: 30px;
+      font-size: 25px;
+    }
   }
   &__service-number {
     line-height: 30px;
-font-size: 25px;
-font-weight: 700;
-span {
-  display: block;
-  line-height: 30px;
-  font-size: 25px;
-
-}
+    font-size: 25px;
+    font-weight: 700;
+    span {
+      display: block;
+      line-height: 30px;
+      font-size: 25px;
+    }
   }
   &__locations {
     display: flex;
@@ -58,7 +55,62 @@ span {
     align-items: center;
     gap: 0 37px;
   }
-
-
-  
+}
+@media screen and (max-width: 1023.98px) {
+  .intro {
+    margin-bottom: 80px;
+  }
+  .intro__container {
+    padding: 52px 51px;
+  }
+  .intro__user {
+    gap: 0 10px;
+  }
+  .intro__location-number,
+  .intro__service-number,
+  .intro__user-number {
+    font-size: 20px;
+    line-height: 25px;
+    span {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .intro {
+    margin-bottom: 60px;
+  }
+  .intro__container {
+    padding: 22px 15px;
+  }
+  .intro__user {
+    gap: 0 10px;
+    flex-direction: column;
+  }
+  .intro__users {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro__location,
+  .intro__service,
+  .intro__user {
+    margin-bottom: 20px;
+  }
+  .intro__locations {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro__services {
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro__location-number,
+  .intro__service-number,
+  .intro__user-number {
+    font-size: 15px;
+    span {
+      font-size: 15px;
+    }
+  }
 }
