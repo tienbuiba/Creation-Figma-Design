@@ -1,0 +1,70 @@
+.header2 {
+  position: relative;
+  &__banner {
+    height: 820px;
+    display: block;
+    width: 1920px;
+  }
+  &__container {
+  }
+  &__icon {
+    display: block;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    top: 39px;
+    right: 99px;
+    z-index: 10;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__desc {
+    position: absolute;
+    top: 81px;
+    font-size: 22px;
+    font-weight: 700;
+    right: 65px;
+    font-size: 20px;
+    color: white;
+    z-index: 10;
+  }
+  &__name {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__toggle {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__logo {
+    display: block;
+    color: white;
+    width: 40%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+}
+// body
+
+.aboutus {
+  background: url("../images/aboutusbody.jpg")  ;
+  padding-bottom: 3600px;
+  position: relative;
+  height: 820px;
+  display: block;
+  width: 1920px;
+
+
+
+
+}

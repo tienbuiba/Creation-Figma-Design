@@ -1,18 +1,18 @@
 .wrapper {
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 .container {
-  max-width: 1170px;
+  max-width: 1570px;
   margin: 0 auto;
   padding: 0 15px;
 }
 body {
-  font-family: $font;
+  font-family: "Noto Sans";
   font-size: 16px;
   line-height: 1;
   color: $text-color;
-  font-weight: 400;
+  font-weight: 900;
   background-color: #f6f6f6;
 }
 .btn {
@@ -24,11 +24,27 @@ body {
   font-weight: 500;
   color: #f53855;
 }
-section,
-header,
-footer {
-  display: none;
+html {
+  scroll-behavior: smooth;
 }
-section[id] {
-  scroll-margin-top: 30px;
+
+// section[id] {
+//   scroll-margin-top: 30px;
+// }
+@font-face {
+  font-family: 'Don Graffiti';
+  src: url(fonts/DonGraffiti.oft);
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src: url(/assets/fonts/NotoSans-Regular.ttf);
+}
+
+main {
+  background: url("../images/Untitled.png")  no-repeat;
+  // margin-bottom: 200px;
+
+}
+video {
+outline: none;  
 }

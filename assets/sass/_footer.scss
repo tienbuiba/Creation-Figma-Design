@@ -1,140 +1,105 @@
 .footer {
-  padding: 330px 0 150px;
-  position: relative;
-  display: block;
-  &__container {
-  }
-  &__list {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    list-style: none;
-    grid-gap: 0 80px;
-  }
-  &__item {
-  }
+  background: #000000;
+  padding-bottom: 53px;
+
   &__logo {
-    margin-bottom: 26px;
+    margin: 0 auto;
+    height: 250px;
   }
-  &__desc {
-    font-weight: 500;
+  // &__container {
+  //   display: grid;
+  //   grid-template-columns: 1fr 1.2fr 1fr;
+  //   grid-gap: 0 30px;
+  // }
+  // &__column2 {
+  //   display: flex;
+  //   justify-content: space-evenly;
+  //   margin-bottom: 119px;
+  //   background: #000000;
+
+  // }
+  &__name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 50px;
+    color: #ffffff;
+  }
+  &__address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
     line-height: 30px;
-    margin-bottom: 30px;
+    color: #ffffff;
+    margin-bottom: 7px;
   }
-  &__social {
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
-    margin-bottom: 30px;
-    gap: 0 20px;
+  &__gmail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 7px;
   }
-  &__facebook {
-    display: block;
-    &:hover {
-      opacity: 0.5;
-    }
+  &__telphone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-bottom: 7px;
   }
+
+  &__column3 {
+    text-align: end;
+  }
+  // &__case {
+  //   margin-bottom: 145px;
+  // }
   &__instagram {
-    display: block;
-    &:hover {
-      opacity: 0.5;
-    }
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 25px;
   }
   &__twitter {
-    display: block;
-    &:hover {
-      opacity: 0.5;
-    }
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 25px;
   }
-  &__icon {
-    text-align: start;
+  &__facebook {
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 25px;
+  }
+  &__youtube {
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 25px;
   }
   &__copyright {
-    font-weight: 500;
-    line-height: 30px;
-    color: #afb5c0;
-  }
-  &__title {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 20px;
-    color: $heading-color;
-  }
-  &__link {
-    line-height: 30px;
-    color: $text-color;
-    margin-bottom: 10px;
-    display: block;
-    &:hover {
-      color: $primary-color;
+    a {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }
-@media screen and (max-width: 1023.98px) {
-  .footer {
-    padding: 430px 0 100px;
-  }
 
-  .footer__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    grid-gap: 50px 50px;
-  }
-  .footer__item {
-    display: inline;
-    width: 90%;
-    padding: 0 20px;
-    text-align: center;
-  }
-  .footer__social {
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
-    margin-bottom: 0px;
-    gap: 0 10px;
-  }
-  .footer__desc {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .footer__logo {
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 26px;
-  }
-}
-@media screen and (max-width: 767.98px) {
-  .footer {
-    padding: 430px 0 100px;
-  }
 
-  .footer__list {
+@media screen and (min-width: 1024px) {
+  .footer__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    grid-gap: 50px 30px;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    grid-gap: 0 30px;
   }
-  .footer__item {
-    display: inline;
-    width: 90%;
-    padding: 0 0px;
-    text-align: center;
-  }
-  .footer__social {
+  .footer__column2 {
     display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
-    margin-bottom: 0px;
-    gap: 0 10px;
+    justify-content: space-evenly;
+    margin-bottom: 119px;
+    background: #000000;
+
   }
-  .footer__desc {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .footer__logo {
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 26px;
+    .footer__case {
+    margin-bottom: 145px;
   }
 }
