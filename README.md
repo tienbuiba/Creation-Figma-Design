@@ -1,2 +1,1 @@
-# LasletVPN
-https://tienbuiba.github.io/LasletVPN/
+# Creation Figma Design
