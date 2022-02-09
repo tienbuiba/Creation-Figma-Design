@@ -1,0 +1,64 @@
+.header3 {
+  height: 181px;
+  width: 1920px;
+  background: url("../images/shopbanner.png") no-repeat;
+margin-bottom: 35px;
+  &__banner {
+    height: 181px;
+    display: block;
+    width: 1920px;
+  }
+  &__logo {
+    display: block;
+    color: white;
+    width: 356px;
+    height: 251px;   
+    position: relative;
+    left: 15.8%;
+    transform: translateX(-50%);
+  }
+       &__container {
+    display: flex;
+    align-items: center;
+    height: 181px;
+    justify-content: space-between;
+  }
+  &__icon {
+    display: block;
+    padding: 30px;
+    color: white;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  &__desc {
+      font-size: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
+  &--toggle {
+    color: white;
+    cursor: pointer;
+  font-size: 35px;
+  color: white;
+  padding: 30px;
+  }
+
+&__cart{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 79px;
+}
+
+
+
+
+
+
+}
+
+
+
