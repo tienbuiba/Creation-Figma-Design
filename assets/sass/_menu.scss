@@ -11,10 +11,12 @@
   transition: transform 0.2s linear;
   // dung willchange cho trinh duyet biet no se ap dung thuoc tinh transform
   will-change: transform;
+
   &.is-active {
     transform: translateX(0);
     
   }
+  
 
   &-toggle {
     cursor: pointer;
@@ -32,6 +34,7 @@
 .menu-item {
   text-decoration: none;
   display: block;
+  width: 100%;
   padding: 20px;
   &:nth-child(1){
     margin-bottom: 80px;
@@ -54,6 +57,7 @@
   text-align: center;
   border-radius: 4px;
   letter-spacing: 0.1em;
+  width: 100%;
 color: #919191;
   transition: all 0.2s ease;
   &:hover {
@@ -68,7 +72,20 @@ color: #919191;
   left: 45px;
   top: 66px;
   color: white;
-  padding: 30px;
+  padding: 30px 30px 30px 0px;
+  z-index: 20;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.menu__close2 {
+  cursor: pointer;
+  font-size: 35px;
+  position: absolute;
+  left: 51px;
+  top: 77px;
+  color: white;
+  padding: 30px 30px 30px 0px;
   z-index: 20;
   &:hover {
     opacity: 0.7;
@@ -78,30 +95,32 @@ color: #919191;
   cursor: pointer;
   font-size: 35px;
   position: absolute;
-  left: 51px ;
-  top: 78px;
+  left: 50px ;
+  // top: 78px;
+  top: 44px;
   color: white;
-  padding: 30px;
+  padding: 30px 30px 30px 0px;
   z-index: 20;
   &:hover {
     opacity: 0.7;
   }
 
 }
-// .menu__shop {
+.menu__close5 {
+  cursor: pointer;
+  font-size: 35px;
+  position: absolute;
+  left: 50px ;
+  top: 43px;
+  color: white;
+  padding: 30px 30px 30px 0px;
+  z-index: 20;
+  &:hover {
+    opacity: 0.7;
+  }
 
-//   cursor: pointer;
-//   font-size: 35px;
-//   position: absolute;
-//   left: 51px ;
-//   top: 78px;
-//   color: white;
-//   padding: 30px;
-//   z-index: 20;
-//   &:hover {
-//     opacity: 0.7;}
-  
-// }
+}
+
 .menu-avatar {
   position: absolute;
   right: 20px;

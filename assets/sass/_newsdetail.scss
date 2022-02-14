@@ -19,6 +19,23 @@
     height: 191px;
     transform: translateX(-50%);
   }
+  &__name--gallary {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    font-family: "Don Graffiti";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 193.76px;
+    line-height: 191px;
+    /* identical to box height */
+    letter-spacing: 0.13em;
+    color: #ffffff;
+    left: 52.4%;
+    width: 775px;
+    height: 191px;
+    transform: translateX(-50%);
+  }
 
   position: relative;
   height: 820px;
@@ -183,7 +200,13 @@
   }
   &__header--link {
     width: 100%;
+    display: block;
     height: 200px;
+    img {
+      width: 100%;
+    display: block;
+
+    }
   }
   &__header--heading {
     width: 551px;
@@ -299,7 +322,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
   &__header--list {
     display: flex;
