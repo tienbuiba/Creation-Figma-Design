@@ -36,6 +36,23 @@
     height: 191px;
     transform: translateX(-50%);
   }
+  &__name--collaboration {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    font-family: "Don Graffiti";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 193.76px;
+    line-height: 191px;
+    /* identical to box height */
+    letter-spacing: 0.13em;
+    color: #ffffff;
+    left: 36%;
+    width: 775px;
+    height: 191px;
+    transform: translateX(-50%);
+  }
 
   position: relative;
   height: 820px;

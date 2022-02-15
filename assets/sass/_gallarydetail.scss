@@ -1,6 +1,6 @@
 .gallarydetail {
   padding-top: 250px;
-  background: url("../images/gallarydetailbackground.png");
+  background: url("../images/gallarydetailbackground.png") no-repeat;
   &__container {
   }
   &__container12 {
@@ -71,7 +71,7 @@
     }
   }
   &__block2 {
-    background: url("../images/gallarydetailblock2.png");
+    background: url("../images/gallarydetailblock2.png") no-repeat;
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 150px;

@@ -1,0 +1,55 @@
+.cola {
+  background: url("../images/collaboration.png") no-repeat;
+  position: relative;
+  // padding-top: 50%;
+  height: 755px;
+  &__contain {
+    position: absolute;
+    padding-bottom: 402px;
+    width: 910px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 176.5px;
+    bottom: 197px;
+    background: rgba(2, 27, 32, 0.9);
+  }
+  &__heading {
+    font-family: Don Graffiti;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 76px;
+    line-height: 75px;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+  }
+  &__desc {
+    font-style: normal;
+    font-weight: normal;
+    // width: 890px;
+    padding: 0px 115px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  &__btn {
+    padding: 15px 30px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: $blue;
+    position: relative;
+    top: 80px;
+    left: 39%;
+    transform: translateX(-50%);
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

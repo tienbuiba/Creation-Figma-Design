@@ -1,0 +1,259 @@
+.header7 {
+  width: 1920px;
+  background: url("../images/accountbackground.png") no-repeat;
+  position: relative;
+  height: 1086px;
+  margin-bottom: 0;
+  &__banner {
+    display: block;
+  }
+  &__logo {
+    display: block;
+    color: white;
+    width: 356px;
+    height: 251px;
+    position: relative;
+    left: 13.47%;
+    transform: translateX(-50%);
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    height: 181px;
+    justify-content: space-between;
+  }
+  &__icon {
+    display: block;
+    color: white;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  &__desc {
+    font-size: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
+  &--toggle {
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+  }
+
+  &__cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 79px;
+  }
+}
+
+// ACCOUNT
+.account {
+  &__form {
+    position: absolute;
+    width: 537px;
+    height: 787px;
+    left: 694px;
+    top: 200px;
+
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+  }
+  &__name {
+    position: absolute;
+    top: 59px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Don Graffiti";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 63px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  &__input1 {
+    position: absolute;
+    top: 172px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    width: 379px;
+    height: 65px;
+
+    &::placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      color: #4f4f4f;
+    }
+    /* gray 1 */
+    padding: 15px 25px;
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 45px;
+    /* identical to box height */
+    background-color: #000;
+
+    color: #ffffff;
+  }
+  &__input2 {
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 379px;
+    height: 65px;
+    padding: 15px 25px;
+    background-color: #000;
+
+    &::placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      color: #4f4f4f;
+    }
+
+    /* gray 1 */
+
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 45px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  &__img1 {
+    position: absolute;
+    top: 336.67px;
+    left: 77.67px;
+    width: 16.67px;
+    /* identical to box height */
+  }
+  &__remmember {
+    position: absolute;
+    top: 336.67px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #ffffff;
+    left: 100px;
+  }
+  &__forgot {
+    position: absolute;
+    top: 336.67px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #ffffff;
+    left: 305px;
+  }
+  &__login {
+    position: absolute;
+    top: 409px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 20px 75px;
+    background: #0071e3;
+    border-radius: 40px;
+    /* identical to box height */
+
+    color: #ffffff;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  &__or {
+    position: absolute;
+    top: 484px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #bdbdbd;
+  }
+  &__border1 {
+    position: absolute;
+    top: 496px;
+    left: 77px;
+    border: 1px solid #bdbdbd;
+    width: 159.5px;
+
+    /* identical to box height */
+
+    color: #bdbdbd;
+  }
+  &__border2 {
+    position: absolute;
+    top: 496px;
+    left: 292px;
+    border: 1px solid #bdbdbd;
+    width: 162px;
+
+    /* identical to box height */
+
+    color: #bdbdbd;
+  }
+  &__icon {
+    width: 45px;
+    height: 45px;
+    display: block;
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    position: absolute;
+    top: 530px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__dontaccount {
+    position: absolute;
+    top: 628px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__createaccount {
+    position: absolute;
+    top: 659px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 45px;
+    font-weight: 500;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 379px;
+    height: 65px;
+    // display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    line-height: 65px;
+    &:hover {
+      background-color: #bdbdbd;
+    }
+  }
+}
