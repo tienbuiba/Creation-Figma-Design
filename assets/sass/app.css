@@ -21,6 +21,12 @@
   padding: 0 0px;
 }
 
+.container4 {
+  max-width: 1820px;
+  margin: 0 auto;
+  padding: 0px  0px 0px 120px;
+}
+
 body {
   font-family: "Noto Sans";
   font-size: 16px;
@@ -2844,83 +2850,143 @@ video {
   margin-bottom: 17px;
 }
 
-.news {
+.gallarydetail {
   padding-top: 250px;
-  padding-bottom: 120px;
+  background: url("../images/gallarydetailbackground.png");
 }
 
-.news__heading {
-  font-family: "Don Graffiti";
-  font-size: 76px;
-  font-weight: normal;
-  line-height: 75px;
-  color: #000;
-  text-align: center;
-  margin-bottom: 100px;
+.gallarydetail__container12 {
+  padding-bottom: 150px;
+}
+
+.gallarydetail__block1 {
   position: relative;
+  margin-bottom: 150px;
 }
 
-.news__heading::before {
+.gallarydetail__block12 {
+  margin-bottom: 0px;
+}
+
+.gallarydetail__block1--image {
+  padding-left: 345px;
+  height: 772px;
+  border-radius: 20px;
+}
+
+.gallarydetail__model {
   position: absolute;
-  content: "";
-  width: 3px;
-  height: 150px;
-  top: -199px;
-  background: #000000;
-  border-radius: 4px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  margin-bottom: 70px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #e6e6e6;
+  border-radius: 20px;
+  width: 545.98px;
+  height: 543px;
 }
 
-.news__btn {
-  padding: 15px 30px;
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  background-color: #0071E3;
+.gallarydetail__model--body {
+  position: absolute;
+  top: 73px;
+  left: 73px;
+  bottom: 86px;
+  right: 73px;
 }
 
-.news__btn:hover {
-  opacity: 0.8;
+.gallarydetail__model--heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #000000;
 }
 
-.news__image {
-  margin-bottom: 29px;
-  width: 778px;
-}
-
-.news__desc {
-  font-size: 32px;
-  line-height: 44px;
-  width: 600px;
-  margin-bottom: 25px;
-  color: #000;
-  font-weight: bold;
-}
-
-.news__text {
+.gallarydetail__model--desc {
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  width: 600px;
-  margin-bottom: 58px;
-  color: #000;
+  color: #000000;
+  margin-bottom: 40px;
 }
 
-.news__contain {
+.gallarydetail__model--btn {
+  padding: 20px 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #0071e3;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.gallarydetail__model--btn:hover {
+  opacity: 0.7;
+  color: #000000;
+}
+
+.gallarydetail__block2 {
+  background: url("../images/gallarydetailblock2.png");
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 150px;
+}
+
+.gallarydetail__block2--body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 207px;
 }
 
-.news__column {
-  max-width: 600px;
+.gallarydetail__block2--body--right {
+  width: 415px;
+}
+
+.gallarydetail__block2--img {
+  border-radius: 20px;
+}
+
+.gallarydetail__model2--heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.gallarydetail__model2--desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.gallarydetail__model2--btn {
+  padding: 20px 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #0071e3;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.gallarydetail__model2--btn:hover {
+  opacity: 0.7;
+  color: #000000;
 }
 /*# sourceMappingURL=app.css.map */
