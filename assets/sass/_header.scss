@@ -1,23 +1,19 @@
 .header {
   position: relative;
-height: 820px;
-
-
+  height: 820px;
 
   &__banner {
-     height: 820px;
+    height: 820px;
 
     overflow: hidden;
     border: none;
     outline: unset;
     line-height: 820px;
-    
-    
   }
-&__video {
- position: relative;
-top: -67px;
-}
+  &__video {
+    position: relative;
+    top: -67px;
+  }
   &__container {
   }
   &__icon {

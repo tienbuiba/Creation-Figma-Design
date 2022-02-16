@@ -76,7 +76,7 @@
     width: 356px;
     height: 251px;
     position: absolute;
-    top: 3px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
@@ -221,8 +221,7 @@
     height: 200px;
     img {
       width: 100%;
-    display: block;
-
+      display: block;
     }
   }
   &__header--heading {

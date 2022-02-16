@@ -1,7 +1,7 @@
 .header2 {
   position: relative;
   height: 820px;
-    &__banner {
+  &__banner {
     height: 820px;
     display: block;
     width: 1920px;
@@ -14,79 +14,73 @@
     left: 50%;
     transform: translateX(-50%);
   }
-//   &__name--news {
-//     position: absolute;
-//     z-index: 1;
-//     top: 300px;
-    
-// font-family: 'Don Graffiti';
-// font-style: normal;
-// font-weight: normal;
-// font-size: 193.76px;
-// line-height: 191px;
-// /* identical to box height */
+  //   &__name--news {
+  //     position: absolute;
+  //     z-index: 1;
+  //     top: 300px;
 
-// letter-spacing: 0.13em;
+  // font-family: 'Don Graffiti';
+  // font-style: normal;
+  // font-weight: normal;
+  // font-size: 193.76px;
+  // line-height: 191px;
+  // /* identical to box height */
 
-// color: #FFFFFF;
-//     left: 58.4%;
-//     width :775px;
-// height :191px;
-//     transform: translateX(-50%);
-//   }
+  // letter-spacing: 0.13em;
+
+  // color: #FFFFFF;
+  //     left: 58.4%;
+  //     width :775px;
+  // height :191px;
+  //     transform: translateX(-50%);
+  //   }
 
   &__logo {
     display: block;
     color: white;
     width: 356px;
-    height: 251px;   
-     position: absolute;
+    height: 251px;
+    position: absolute;
     top: 3px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
   }
 
+  &__container {
+  }
+  &__icon {
+    display: block;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 99px;
+    z-index: 10;
 
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+  &__desc {
+    position: absolute;
+    // top: 111px;
+    font-size: 22px;
+    font-weight: 700;
+    top: 112px;
+    right: 65px;
+    font-size: 20px;
+    color: white;
+    z-index: 10;
+  }
 
-  
-  
- 
-    &__container {
-    }
-    &__icon {
-      display: block;
-      padding: 30px;
-      color: white;
-      position: absolute;
-      top: 70px;
-      right: 99px;
-      z-index: 10;
-  
-      &:hover {
-        cursor: pointer;
-        opacity: 0.7;
-      }
-    }
-    &__desc {
-      position: absolute;
-      // top: 111px;
-      font-size: 22px;
-      font-weight: 700;
-      top: 112px;
-      right: 65px;
-      font-size: 20px;
-      color: white;
-      z-index: 10;
-    }
-   
-    &__toggle {
-      position: absolute;
-      bottom: 40px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
+  &__toggle {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 // body
 
@@ -299,7 +293,7 @@
     height: 366px;
     box-sizing: border-box;
     border-radius: 20px;
-    transform: rotate(0.0deg);
+    transform: rotate(0deg);
     z-index: 10;
     z-index: 2;
   }
@@ -333,38 +327,34 @@
     display: inline-block;
     border: 3px solid #000000;
     cursor: pointer;
-   
   }
   &__back--image {
     margin: 14px auto 5px;
-
   }
   &__back--title1 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-letter-spacing: -0.02em;
-color: #000000;
-
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
   }
   &__back--title2 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'Noto Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-letter-spacing: -0.02em;
-color: #000000;
-
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
   }
 }

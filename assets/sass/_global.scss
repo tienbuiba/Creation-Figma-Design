@@ -11,20 +11,17 @@
   max-width: 1820px;
   margin: 0 auto;
   padding: 0 0px;
-
-
 }
 .container3 {
   max-width: 1680px;
   margin: 0 auto;
   padding: 0 0px;
-
-
 }
 .container4 {
   max-width: 1820px;
   margin: 0 auto;
-  padding: 0px  0px 0px 120px;}
+  padding: 0px 0px 0px 120px;
+}
 
 body {
   font-family: "Noto Sans";
@@ -51,23 +48,22 @@ html {
 //   scroll-margin-top: 30px;
 // }
 @font-face {
-  font-family: 'Don Graffiti';
+  font-family: "Don Graffiti";
   src: url(fonts/DonGraffiti.oft);
 }
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
   src: url(/assets/fonts/NotoSans-Regular.ttf);
 }
 
 main {
-  background: url("../images/Untitled.png")  no-repeat;
+  background: url("../images/Untitled.png") no-repeat;
   // margin-bottom: 200px;
-
 }
 video {
-outline: none;  
+  outline: none;
 }
 
 .color--white {
-  color: #fff  !important;
+  color: #fff !important;
 }

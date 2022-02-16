@@ -1,111 +1,103 @@
-
-
 .shop {
   padding: 280px 0px 0px;
 
   &__heading {
-      font-family: "Don Graffiti";
-  font-size: 76px;
-  font-weight: normal;
-  line-height: 75px;
-  color: #000;
-  text-align: center;
-  margin-bottom: 150px;
-  position: relative;
-  &::after {
-    position: absolute;
-    content: "";
-    width: 3px;
-    height: 150px;
-    top: -199px;
-    background: #000000;
-    border-radius: 4px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 70px;
+    font-family: "Don Graffiti";
+    font-size: 76px;
+    font-weight: normal;
+    line-height: 75px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 150px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 3px;
+      height: 150px;
+      top: -199px;
+      background: #000000;
+      border-radius: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 70px;
+    }
   }
- 
-
-}
-&__img {
-  margin-bottom: 40px;
-}
-&__desc {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 23px;
-  color: #000;
-  margin-bottom: 32px;
-  font-style: normal;
-letter-spacing: -0.02em;
-}
-&__desc {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 23px;
-  color: #000;
-  margin-bottom: 32px;
-  font-style: normal;
-letter-spacing: -0.02em;
-}
-&__desc {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 23px;
-  color: #000;
-  margin-bottom: 32px;
-  font-style: normal;
-letter-spacing: -0.02em;
-}
-&__desc1 {
-width: 406px;
-}
-&__desc2 {
-  width: 560px;
+  &__img {
+    margin-bottom: 40px;
+  }
+  &__desc {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #000;
+    margin-bottom: 32px;
+    font-style: normal;
+    letter-spacing: -0.02em;
+  }
+  &__desc {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #000;
+    margin-bottom: 32px;
+    font-style: normal;
+    letter-spacing: -0.02em;
+  }
+  &__desc {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #000;
+    margin-bottom: 32px;
+    font-style: normal;
+    letter-spacing: -0.02em;
+  }
+  &__desc1 {
+    width: 406px;
+  }
+  &__desc2 {
+    width: 560px;
   }
   &__desc3 {
     width: 406px;
+  }
+
+  &__pricing {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.4;
+    color: #000;
+    margin-bottom: 48px;
+  }
+  &__btn {
+    padding: 15px 30px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: $blue;
+    &:hover {
+      opacity: 0.8;
     }
-
-&__pricing {
-  font-size: 13px;
-line-height: 15px;
-letter-spacing: 0.4;
-color: #000;
-margin-bottom: 48px;
-
-}
-&__btn {
-  padding: 15px 30px;
-  color: white;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  background-color: $blue;
-  &:hover {
-    opacity: 0.8;
   }
-}
-&__item1{
-width: 431px;
-display: block;
-}
-&__item2{
-  width: 964px;
+  &__item1 {
+    width: 431px;
+    display: block;
   }
-&__item3{
-  width: 431px;
+  &__item2 {
+    width: 964px;
+  }
+  &__item3 {
+    width: 431px;
   }
 
-&__list {
-display: flex;
-align-items: center; 
-justify-content: space-between; 
-gap: 30px ;
-list-style-type: none;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+  }
 }
-}
-
-
-
