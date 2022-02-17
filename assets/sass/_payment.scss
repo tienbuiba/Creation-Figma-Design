@@ -76,6 +76,7 @@
     font-weight: normal;
     font-size: 64px;
     line-height: 63px;
+    letter-spacing: 0.1em;
     /* identical to box height */
 
     color: #ffffff;
@@ -176,19 +177,17 @@
     position: absolute;
     width: 895px;
     height: 65px;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 45px;
+   line-height: 65px;
 
     &::placeholder {
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
-      line-height: 23px;
+      line-height: 65px;
       color: #4f4f4f;
     }
     /* gray 1 */
-    padding: 15px 25px;
+    padding: 0px 35px;
     border: 1px solid #bdbdbd;
     box-sizing: border-box;
     border-radius: 45px;
@@ -205,25 +204,21 @@
     position: absolute;
     width: 895px;
     height: 65px;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 45px;
-
-    &::placeholder {
+    line-height: 65px;
+       &::placeholder {
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
-      line-height: 23px;
+      line-height: 65px;
       color: #4f4f4f;
     }
     /* gray 1 */
-    padding: 15px 25px;
+    padding: 0px 35px;
     border: 1px solid #bdbdbd;
     box-sizing: border-box;
     border-radius: 45px;
     /* identical to box height */
     background-color: #000;
-
     color: #ffffff;
   }
 
@@ -234,19 +229,17 @@
     position: absolute;
     width: 435px;
     height: 65px;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 45px;
+    line-height: 65px;
 
     &::placeholder {
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
-      line-height: 23px;
+      line-height: 65px;
       color: #4f4f4f;
     }
     /* gray 1 */
-    padding: 15px 25px;
+    padding: 0px 35px;
     border: 1px solid #bdbdbd;
     box-sizing: border-box;
     border-radius: 45px;
@@ -262,20 +255,18 @@
     right: 123px;
     position: absolute;
     width: 435px;
-    height: 65px;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 45px;
+    height: 65px;  
+      line-height: 65px;
 
     &::placeholder {
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
-      line-height: 23px;
+      line-height: 65px;
       color: #4f4f4f;
     }
     /* gray 1 */
-    padding: 15px 25px;
+    padding: 0px 35px;
     border: 1px solid #bdbdbd;
     box-sizing: border-box;
     border-radius: 45px;

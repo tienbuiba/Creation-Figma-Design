@@ -318,7 +318,7 @@
   &__back {
     position: absolute;
     top: 94%;
-    left: 50%;
+    left: 46.6%;
     transform: translateX(-50%);
     border-radius: 50%;
     height: 120px;
@@ -327,6 +327,19 @@
     display: inline-block;
     border: 3px solid #000000;
     cursor: pointer;
+    animation: backtop 2s infinite linear alternate;
+  }
+  @keyframes  backtop{
+
+    0%{
+      transform: translateY(-40px);
+
+    }
+    100% {
+      transform: translateY(0);
+
+    }
+  
   }
   &__back--image {
     margin: 14px auto 5px;

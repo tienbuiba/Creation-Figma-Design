@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="./assets/sass/app.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <title>Creation</title>
 </head>
 
@@ -31,28 +33,35 @@
           <img src="./assets/images/Layer 149.png" class="menu__icon" alt="">
           <p class="menu__desc">Cart</p>
         </div>
-        <a href="home.html" class="menu__singout">Sing out</a>
+        <a href="home4.html" class="menu__singout">Sing out</a>
 
       </div>
 
       <ul class="menu-list">
         <li class="menu-item">
-          <a href="home3.html" class="menu-link">About</a>
+          <a href="home3.html" class="menu-link">Home</a>
+        </li>
+
+        <li class="menu-item">
+          <a href="aboutus.html" class="menu-link">About Us</a>
         </li>
         <li class="menu-item">
-          <a href="home3.html" class="menu-link">Shop</a>
+          <a href="shop.html" class="menu-link">Shop</a>
         </li>
         <li class="menu-item">
-          <a href="home3.html" class="menu-link">GALLERY</a>
+          <a href="news.html" class="menu-link">New</a>
         </li>
         <li class="menu-item">
-          <a href="home3.html" class="menu-link">Collaboration</a>
+          <a href="gallery.html" class="menu-link">GALLERY</a>
+        </li>
+        <li class="menu-item">
+          <a href="collaboration.html" class="menu-link">Collaboration</a>
         </li>
 
       </ul>
     </div>
     <!-- the end menu -->
-    <header class="header2">
+    <header class="header2" id="header2">
       <img src="./assets/images/aboutusbanner.jpg" class="header2__banner" alt="">
       <div class="container">
         <img src="./assets/images/Icon (1).png" class="menu-toggle" alt="">
@@ -70,13 +79,13 @@
       </div>
     </header>
     <div class="aboutus" id="aboutus">
-      <section id="aboutus__2019" class="aboutus__2019">
-        <div class="aboutus__images">
+      <section  data-aos="fade-in" id="aboutus__2019" class="aboutus__2019">
+        <div class="aboutus__images" data-aos="fadeInUp">
           <img src="./assets/images/aboutus1.png" alt="" class="aboutus__img1">
           <img src="./assets/images/aboutus2.png" alt="" class="aboutus__img2">
 
         </div>
-        <div class="aboutus__body">
+        <div class="aboutus__body" data-aos="fade-up">
           <div class="aboutus__year">2019</div>
           <div class="aboutus__heading">THE BIRTH OF AN ICON</div>
           <div class="aboutus__desc">Launched in 2019, Création is a place that will display typical Graffiti artworks
@@ -86,16 +95,16 @@
         </div>
       </section>
       <!--  -->
-      <section id="aboutus__2020" class="aboutus__2020">
+      <section data-aos="fade-in"  id="aboutus__2020" class="aboutus__2020" >
 
-        <div class="aboutus__body2020">
+        <div class="aboutus__body2020" data-aos="fade-up">
           <div class="aboutus__year">2020</div>
           <div class="aboutus__heading">Expansion</div>
           <div class="aboutus__desc">After a period of operation, we have had many artists collaborate. </div>
 
         </div>
 
-        <div class="aboutus__images">
+        <div class="aboutus__images" data-aos="fadeInUp">
           <img src="./assets/images/aboutus3.png" alt="" class="aboutus__img3">
           <img src="./assets/images/aboutus4.png" alt="" class="aboutus__img4">
           <img src="./assets/images/aboutus5.png" alt="" class="aboutus__img5">
@@ -104,14 +113,14 @@
 
       </section>
       <!--  -->
-      <section id="aboutus__2021" class="aboutus__2021">
-        <div class="aboutus__images">
+      <section data-aos="fade-in" id="aboutus__2021" class="aboutus__2021">
+        <div class="aboutus__images" data-aos="fadeInUp">
           <img src="./assets/images/aboutus6.png" alt="" class="aboutus__img6">
           <img src="./assets/images/aboutus7.png" alt="" class="aboutus__img7">
           <img src="./assets/images/aboutus8.png" alt="" class="aboutus__img8">
 
         </div>
-        <div class="aboutus__body2021">
+        <div class="aboutus__body2021" data-aos="fade-up">
           <div class="aboutus__year">2021</div>
           <div class="aboutus__heading">COLLABORATION</div>
           <div class="aboutus__desc">Thanks to the products that resonate in the market, we started to cooperate with
@@ -120,9 +129,9 @@
         </div>
       </section>
       <!--  -->
-      <section id="aboutus__2022" class="aboutus__2022">
+      <section data-aos="fade-in"  id="aboutus__2022" class="aboutus__2022">
 
-        <div class="aboutus__body2022">
+        <div class="aboutus__body2022" data-aos="fade-up">
           <div class="aboutus__year">2022</div>
           <div class="aboutus__heading">Launching renditions in various locations around the world</div>
           <div class="aboutus__desc">we have had the opportunity to organize exhibitions in famous places for art in the
@@ -130,7 +139,7 @@
 
         </div>
 
-        <div class="aboutus__images">
+        <div class="aboutus__images" data-aos="fadeInUp">
           <img src="./assets/images/aboutus9.png" alt="" class="aboutus__img9">
           <img src="./assets/images/aboutus10.png" alt="" class="aboutus__img10">
           <img src="./assets/images/aboutus11.png" alt="" class="aboutus__img11">
@@ -139,7 +148,7 @@
 
       </section>
       <!-- back to top -->
-      <a href="#aboutus" class="aboutus__back">
+      <a href="#header2" class="aboutus__back">
         <img src="./assets/images/arrowtop.png" alt="" class="aboutus__back--image">
         <p class="aboutus__back--title1">BACK TO
         </p>
@@ -185,16 +194,19 @@
           <h1 class="footer__case"></h1>
           <div class="social-list">
             <a href="#">
-              <ion-icon name="logo-instagram" class="footer__instagram"></ion-icon>
+              <img src="./assets/images/footer01.png" alt="" class="footer__instagram">
             </a>
             <a href="#">
-              <ion-icon name="logo-twitter" class="footer__twitter"></ion-icon>
+              <img src="./assets/images/footer02.png" alt="" class="footer__twitter">
+
             </a>
             <a href="#">
-              <ion-icon name="logo-facebook" class="footer__facebook"></ion-icon>
+              <img src="./assets/images/footer03.png" alt="" class="footer__facebook">
+
             </a>
             <a href="#">
-              <ion-icon name="logo-youtube" class="footer__youtube"></ion-icon>
+              <img src="./assets/images/footer004.png" alt="" class="footer__youtube">
+
             </a>
           </div>
         </div>
@@ -208,6 +220,11 @@
 
   </div>
   <script src="./scripts/app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>

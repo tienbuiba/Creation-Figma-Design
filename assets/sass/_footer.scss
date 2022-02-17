@@ -47,7 +47,14 @@
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
-    margin-bottom: 7px;
+  }
+  &__bottom-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #ffffff;
   }
 
   &__column3 {
@@ -60,26 +67,47 @@
     font-size: 30px;
     color: #ffffff;
     margin-left: 25px;
+    width: 50.8px;
+height: 49.91px;
+    display: inline-block;
   }
   &__twitter {
     font-size: 30px;
     color: #ffffff;
+    width: 50.8px;
+height: 49.91px;
     margin-left: 25px;
+    display: inline-block;
+
   }
   &__facebook {
     font-size: 30px;
     color: #ffffff;
     margin-left: 25px;
+    width: 50.8px;
+height: 49.91px;
+    display: inline-block;
+
   }
   &__youtube {
     font-size: 30px;
     color: #ffffff;
     margin-left: 25px;
+    width: 50.8px;
+height: 49.91px;
+    display: inline-block;
+
   }
   &__copyright {
     a {
       position: absolute;
       left: 50%;
+      font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+color: #A5A5A5;
       transform: translateX(-50%);
     }
   }
@@ -98,6 +126,6 @@
     background: #000000;
   }
   .footer__case {
-    margin-bottom: 145px;
+    margin-bottom: 136px;
   }
 }

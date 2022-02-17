@@ -166,7 +166,7 @@
   &__login {
     position: absolute;
     top: 409px;
-    left: 50%;
+    left: 49%;
     transform: translateX(-50%);
     font-weight: normal;
     font-size: 18px;
@@ -234,6 +234,12 @@
     top: 628px;
     left: 50%;
     transform: translateX(-50%);
+        font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
   }
   &__createaccount {
     position: absolute;
