@@ -65,9 +65,12 @@
     <!-- the end menu -->
     <header class="header">
       <div class="header__banner">
-        <video loop autoplay  class="header__video">
+        <video loop autoplay muted  class="header__video" id="vid">
           <source src="./assets/videos/video.webm" type="video/webm">
         </video>
+        <script>
+          document.getElementById('vid').play();
+      </script>
       </div>
 
       <!-- <img src="./assets/images/homebanner.png" class="header__banner" alt=""> -->
